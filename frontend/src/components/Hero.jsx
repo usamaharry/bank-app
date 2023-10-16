@@ -13,7 +13,7 @@ const Hero = () => {
       ${styles.paddingY}
   `}
     >
-      <div className="flex flex-col items-start px-6  sm:px-16">
+      <div className="flex flex-col items-start px-6 xl:px-0  sm:px-16">
         {/* Discount card */}
         <div className="mb-5 bg-discount-gradient p-2 flex flex-row justify-start items-center rounded-[10px]">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
