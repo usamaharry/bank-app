@@ -18,11 +18,10 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
-            {link.title}
+            <a href={`#${link.id}`}> {link.title}</a>
           </li>
         ))}
       </ul>
-
       <div className={`sm:hidden flex flex-1 justify-end items-center`}>
         <img
           src={toggle ? close : menu}
@@ -44,7 +43,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mb-0" : "mb-10"
                 }`}
               >
-                {link.title}
+                <a href={`#${link.id}`}> asd</a>
               </li>
             ))}
           </ul>
